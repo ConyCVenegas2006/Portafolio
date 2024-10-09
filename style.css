@@ -1,0 +1,448 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e2a7ba;
+  padding: 0% 1%;
+}
+.LUI {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  padding: 20px 10px;
+}
+
+.boton {
+  background-color: aqua;
+  color: lemonchiffon;
+  text-align: right;
+}
+.perfil {
+  color: lemonchiffon;
+  background-color: #e2a7ba;
+}
+
+.casa {
+  text-decoration: none;
+  color: #153565;
+}
+
+.miperfil {
+  text-decoration: none;
+  color: #153565;
+}
+
+.conexion {
+  text-decoration: none;
+  color: #153565;
+}
+.background_1 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background_1 video {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content_portada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.img_portada {
+  width: 80%;
+}
+
+
+.text_portada {
+  font-style: italic;
+  font-size: 30px;
+  color: #e2a7ba;
+}
+
+.subtitulo {
+  font-style: normal;
+  color: #7b3767;
+}
+.redes {
+  background: #6e7418;
+    display: flex;
+    color: #e2a7ba;
+  justify-content: center;
+}
+
+.info{
+    background-color: #dfc798;
+    color: #d6789f;
+}
+
+li a {
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #e2a7ba;
+}
+
+.Mis-hobbys {
+  font-style: oblique;
+
+  color: #e2a7ba;
+  background-color: #6e7418;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-mi {
+  height: 800px;
+  background-color: black;
+  color: white;
+  margin: auto;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#sobreMi {
+  width: 100vw;
+  background-color: #dfc798;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vw;
+  padding: 5% 0;
+}
+.sobremiclass {
+  font-style: oblique;
+  background: #6e7418;
+  color: #e2a7ba;
+  display: flex;
+  justify-content: center;
+}
+
+.card-h2 {
+  display: flex;
+  justify-content: center;
+}
+#contentCards {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+#contentCards div {
+  width: 100%;
+  background-color: #6e7418;
+  color: #e2a7ba;
+  border-radius: 20px;
+}
+
+#contentCards div figure {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+#contentCards div figure img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#contentCards div figcaption {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1vw;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.hobbys {
+  background-color: #dfc798;
+  color: #d6789f;
+  display: flex;
+  justify-content: space-around;
+}
+.kdramas {
+  height: 200px;
+}
+
+.Música {
+  font-style: oblique;
+  background-color: #6e7418;
+  color: #e2a7ba;
+  display: flex;
+  justify-content: center;
+}
+
+.kpop {
+  background-color: #dfc798;
+  color:#d6789f;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.grupos {
+  font-style: oblique;
+
+  background-color: #6e7418;
+  color: #e2a7ba;
+  display: flex;
+  justify-content: center;
+}
+
+.G-K {
+  background: #dfc798;
+  color: #d6789f;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  
+
+}
+.datos {
+  font-style: oblique;
+  background: #6e7418;
+  color: #e2a7ba;
+  display: flex;
+  justify-content: center;
+}
+
+.puntos {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: #dfc798;
+  color: #153565;
+  span {
+    color: #d6789f;
+  }
+}
+
+.habilidades {
+  font-style: oblique;
+
+  background-color: #6e7418;
+  color: #e2a7ba;
+  display: flex;
+  justify-content: center;
+}
+
+.M-H {
+  background: #dfc798;
+  color: #d6789f;
+}
+
+.aspiraciones {
+  font-style: oblique;
+
+  background-color: #6e7418;
+  color: #e2a7ba;
+  display: flex;
+  justify-content: center;
+}
+
+.juegos {
+  font-style: oblique;
+
+  background-color: #6e7418;
+  color: #e2a7ba;
+  display: flex;
+  justify-content: center;
+}
+
+.M-A {
+  background: #dfc798;
+  color: #d6789f;
+}
+
+.conctact-form h2 {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-size: 36px;
+}
+.conctact-form form {
+  max-width: 500em;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3em;
+}
+.conctact-form form .input-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.conctact-form form .input-box input,
+.conctact-form form textarea {
+  width: 100%;
+  padding: 1.5em;
+  font-size: 18px;
+ ;
+  background: lemonchiffon;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #6e7418;
+}
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #d6789f;
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: #d6789f;
+
+  width: 40px;
+  height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+
+  transition: 0.3s ease;
+}
+.footer .social a:hover {
+  transform: scale(1.2) translateY(-10px);
+  
+  border: 2px solid lemonchiffon;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul li a {
+  color: #7b3767;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+.footer ul li a:hover {
+  border-bottom: 3px solid #e2a7ba;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: #e2a7ba;
+}
+
+.conctact-me {
+  font-style: oblique;
+  color: #153565;
+}
+
+.color-fondo{
+    background-color:#dfc798;
+}
+
+.hobbys li{
+    list-style-type:none;
+}
+.hb{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.nombres{
+    color: #d6789f;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.logo{
+    width:250px ;
+    height: 250px;
+}
+
+.logo:hover{
+    width: 200px;
+    height: 200px;
+}
+
+.rol{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rol li{
+    list-style-type: none;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    clip-path: circle();
+}
