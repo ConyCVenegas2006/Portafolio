@@ -70,17 +70,21 @@ li {
 }
 
 .content_portada {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5%;
+  transform: translate(-20%);
+  gap: 2rem;
+
 }
 
 .img_portada {
-  width: 80%;
+  width: 80px;
+  aspect-ratio: 1/1;
+
+
 }
-
-
 .text_portada {
   font-style: italic;
   font-size: 30px;
